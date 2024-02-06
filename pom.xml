@@ -27,4 +27,12 @@
       <version>2.0.11</version>
     </dependency>
   </dependencies>
+
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/AlessioCalvagno/github-packages-test</url>
+    </repository>
+  </distributionManagement>
 </project>
