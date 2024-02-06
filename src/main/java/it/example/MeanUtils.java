@@ -18,4 +18,15 @@ public class MeanUtils {
         log.info("Mean value = {}", sum/arr.size());
         return sum/arr.size();
     }
+
+    public static Float computeMeanForInt(List<Integer> arr) {
+        log.info("Computing mean for: {}", arr);
+        Float sum = (float) 0;
+
+        for(Integer n: arr) {
+            sum += n;
+        }
+        log.info("Mean value = {}", sum/arr.size());
+        return sum/arr.size();
+    }
 }
